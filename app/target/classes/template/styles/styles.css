@@ -1,0 +1,15 @@
+body {
+    background-color: lightgrey;
+}
+.default_map{
+    overflow:hidden;
+    background:none!important;
+    height:600px;
+    width:700px;
+}
+.searched_map{
+    overflow:hidden;
+    background:none!important;
+    height:600px;
+    width:700px;
+}

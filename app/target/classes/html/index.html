@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Public Transport Search</title>
+  <link rel="stylesheet" href="./template/styles/styles.css">
+</head>
+<body>
+  <form method="post" action="home" enctype="application/x-www-form-urlencoded">
+    <table>
+      <tr>
+        <td>
+          <label for="location"></label>
+          <input id="location" type="text" name="location" placeholder="Enter Location" required>
+        </td>
+        <td>
+          <label for="destination"></label>
+          <input id="destination" type="text" name="destination" placeholder="Enter Destination" required>
+        </td>
+        <td>
+          <button>Search</button>
+        </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <div class="default_map">
+          <iframe width="700" height="600" id="default_map"
+            src="https://maps.google.com/maps?q=johannesburg&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0">
+          </iframe>
+          <br>
+        </div>
+      </td>
+      </tr>
+    </table>
+</form>
+
+
+</body>
+</html>
